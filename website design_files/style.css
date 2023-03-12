@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #363543;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    height: 190vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.container {
+    margin: 0px 150px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar>div:nth-child(1) {
+    flex-grow: 2;
+    text-align: left;
+}
+
+.navbar>div:nth-child(2) {
+    flex-grow: 10;
+    text-align: left;
+    font-size: 15px;
+}
+
+.navbar>div:nth-child(3) {
+    flex-grow: 2;
+    text-align: right;
+}
+
+.topNavUl>li {
+    display: inline;
+    padding-right: 10px;
+}
+.active{
+    color: #fff !important;
+}
+.topNavUl>li>a {
+    text-decoration: none;
+    color: #ffffff86;
+}
+
+.topNavUlMenu>li {
+    display: inline;
+    padding-right: 5px;
+}
+
+.bnr {
+    display: flex;
+    justify-content: flex-start;
+    color: #ffffffc5;
+}
+
+.bnr>div {
+    width: 33.3%;
+    z-index: 999;
+}
+.bnr>div:nth-child(1){
+    margin-top: 50px;
+}
+.bnr>div:nth-child(2)>img {
+    margin-top: -50px;
+    
+}
+.bnr>div:nth-child(3)>a {
+    color: #D6AB49;
+    text-decoration: none;
+    
+}
+.bnr>div:nth-child(3) {
+    margin-top: 40px;
+    margin-left: -20px;
+}
+.bnr>div:nth-child(3)>ul {
+    margin-top: 30px;
+
+}
+
+.bnr-ul {
+    padding-left: 0;
+}
+
+.bnr-ul>li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.bnr-ul>li>a>img {
+    width: 20px;
+    background-color: #3E3D4F;
+    border-radius: 80px;
+    padding: 8px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: #2D2D39;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    z-index: 0;
+}
+
+.tab {
+    background-color: #3E3D4F;
+    z-index: 9999;
+    width: 100%;
+    top: 70%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+    margin-top: -5px;
+}
+.tab>div {
+background-color: #2D2D39;
+padding: 15px 50px;
+}
+.main-cont {
+    height: 100vh;
+    background-color: #2D2D39;
+    margin-top: -45px;
+    z-index: -10;
+    width: 100%;
+    position: absolute;
+}
+.head-underline{
+    background-color: #D6AB49;
+    width: 50%;
+    height: 3px;
+    margin-top: -10px;
+}
